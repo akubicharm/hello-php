@@ -2,7 +2,7 @@
 
 
 echo "<h1>Hello External DB</h1>";
-$mysqli = new mysqli(getenv("HELLO_PHP_MYSQL_SERVICE_HOST"), getenv("MYSQL_USER"), getenv("MYSQL_PASSWORD"), getenv("MYSQL_DATABASE"));
+$mysqli = new mysqli(getenv("HELLO_PHP_MYSQL_SERVICE_SERVICE_HOST"), getenv("MYSQL_USER"), getenv("MYSQL_PASSWORD"), getenv("MYSQL_DATABASE"));
 if ($mysqli->connect_error) {
     exit($mysqli->connect_error);
 } else {
