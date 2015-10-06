@@ -1,0 +1,17 @@
+{
+  "kind": "Endpoints",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "hello-php-mysql"
+  },
+  "subsets": [
+    {
+      "addresses":  [
+        { "IP": "192.168.232.101" }
+      ],
+      "ports":  [
+        { "port": 3306, "name": "mysql" }
+      ]
+    }
+  ]
+}
