@@ -7,4 +7,4 @@ OPTS="\
 -e MYSQL_DATABASE=mydb "
 
 echo "oc env dc $DC_NAME $OPTS"
-oc env dc $DC_NAME $OPTS
+#oc env dc $DC_NAME $OPTS
