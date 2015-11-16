@@ -24,6 +24,7 @@ mysql -u root -p
 Enter password: mysql <-- input "mysql"
 
 create database mydb;
+use mydb;
 create table hello (
 msg varchar(255)
 );
