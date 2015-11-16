@@ -58,7 +58,7 @@ oc expose service hello-php --hostname=hello-php.extdbtest.apps.cloud
 ## Configure using external DB
 ### Set environment variables to DeploymentConfig
 ```
-oc env dc/hello-php HELLO_PHP_MYSQL_SERVICE_HOST=master MYSQL_USER=mysql MYSQL_PASSWORD=mysql MYSQL_DATABASE=mydb
+oc env dc/hello-php HELLO_PHP_MYSQL_SERVICE_HOST=master MYSQL_USER=myuser MYSQL_PASSWORD=mysql MYSQL_DATABASE=mydb
 ```
 
 ## Confirm application
