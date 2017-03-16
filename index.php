@@ -1,6 +1,6 @@
 <?php
 
-echo "<h1>Hello world 2016-03-14</h1>";
+echo "<h1>Hello world 2017/03/16</h1>";
 $mysqli = new mysqli(getenv("HELLO_PHP_MYSQL_SERVICE_HOST"), getenv("MYSQL_USER"), getenv("MYSQL_PASSWORD"), getenv("MYSQL_DATABASE"));
 if ($mysqli->connect_error) {
     exit($mysqli->connect_error);
